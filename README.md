@@ -13,7 +13,7 @@ The proximity monitor equired several items of configuration.
 Make sure to use the correct MAC IDs in the configuration, otherwise you will
 be waiting for packets that will never arrive.
 
-- iPhones: Settings --> Wi-Fi --> (AP) --> Wi-Fi Accress.
+- iPhones: Settings --> Wi-Fi --> (AP) --> Wi-Fi Access.
 - Windows: cmd --> ipconfig /all --> Wireless LAN adapter Wi-Fi --> Physical Access.
 
 ## Operation
@@ -27,7 +27,7 @@ If the in-range or out-of-range state changes, the proximity monitor exits
 promiscuous mode, enters normal station mode, and sends the appropriate on or
 off trigger to IFTTT.
 
-And then loops.
+And then it loops.
 
 ## Interactions
 
