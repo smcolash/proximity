@@ -28,7 +28,6 @@ And then loops.
 The basic interactions are as shown in the following sequence diagram.
 ```mermaid
 sequenceDiagram
-  autonumber
   participant D as device
   participant P as proximity
   participant A as accesspoint
