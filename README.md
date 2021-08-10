@@ -28,9 +28,9 @@ And then loops.
 The basic interactions are as shown in the following sequence diagram.
 ```mermaid
 sequenceDiagram
-  participant D as device
+  participant D as device(s)
   participant P as proximity
-  participant A as accesspoint
+  participant A as access point
   participant I as maker.ifttt.com
 
   activate P
