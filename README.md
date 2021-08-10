@@ -10,6 +10,12 @@ The proximity monitor equired several items of configuration.
 - An IFTTT Webhook 'on' trigger.
 - An IFTTT Webhook 'off' trigger.
 
+Make sure to use the correct MAC IDs in the configuration, otherwise you will
+be waiting for packets that will never arrive.
+
+- iPhones: Settings --> Wi-Fi --> (AP) --> Wi-Fi Accress.
+- Windows: cmd --> ipconfig /all --> Wireless LAN adapter Wi-Fi --> Physical Access.
+
 ## Operation
 
 The proximity monitor determines a local WiFi access point and channel to use,
@@ -67,7 +73,4 @@ sequenceDiagram
     end
     deactivate P
 end
-
-
-
 ```
