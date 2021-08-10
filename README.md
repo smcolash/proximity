@@ -3,7 +3,7 @@ A proximity monitor for WiFi devices.
 
 ## Configuration
 
-The proximity monitor equired several items of configuration.
+The proximity monitor requires several items of configuration.
 - A list of access points and passwords to try to use (makes it more portable).
 - A list of devices (arbitrary name, WiFi MAC ID, and idle time) to monitor.
 - An IFTTT Webhook key.
@@ -11,7 +11,8 @@ The proximity monitor equired several items of configuration.
 - An IFTTT Webhook 'off' trigger.
 
 Make sure to use the correct MAC IDs in the configuration, otherwise you will
-be waiting for packets that will never arrive.
+be waiting for packets that will never arrive. You will need to check your
+device(s) to find their MAC IDs.
 
 - iOS: Settings --> Wi-Fi --> (AP) --> Wi-Fi Access.
 - Windows: cmd --> ipconfig /all --> Wireless LAN adapter Wi-Fi --> Physical Access.
