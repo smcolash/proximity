@@ -38,11 +38,11 @@ sequenceDiagram
   A->>P: reponse
   deactivate P
 
-  loop
+  loop forever
     note over P: configure promiscuous mode
 
     activate P
-    loop
+    loop until state changes
     alt device in range
       D->>P: device packet
       P->>P: reset timer
