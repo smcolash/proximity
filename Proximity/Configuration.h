@@ -1,5 +1,5 @@
-#ifndef __CONFIGURATION__H_
-#define __CONFIGURATION__H_
+#ifndef __CONFIGURATION_H__
+#define __CONFIGURATION_H__
 
 /**
    Array of access point configurations.
